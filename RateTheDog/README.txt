@@ -1,0 +1,2 @@
+I have completed Goals 1-5, however I was unable to complete goal 6 using the required "dog-breeds.txt" file as some of the breeds 
+would not render a new image from the endpoint. So, I used the list of breeds endpoint from the Dog API instead.

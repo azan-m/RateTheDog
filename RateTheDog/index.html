@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Rate My Dog</h1>
+    </div>
+    
+    <div class="frame">
+      <img alt="dog image" id="dog-image">
+    </div>
+    
+
+    
+    <div id="form-container">
+      <form id="rating-form">
+        <label class="text-container">Rate the dog out of 10 from 10 to 15:</label>
+        <select class="custom-select" id = "rating">
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+          <option>13</option>
+          <option>14</option>
+          <option>15</option>
+        </select>
+        <input class="custom-button" type="submit" value="Submit">
+      </form>
+      <div id="breed-select-container">
+        <label class="text-container" for="breed-select">Select a breed:</label>
+        <select class="custom-select" id="breed-select"></select>
+      </div>
+    </div>
+
+
+    <div class="history-container">
+      <div class="history-frame">
+        <h2>Rating History</h2>
+        <text class="text-container" id="sort-history">Sort</text>
+    <select class="custom-select" id="sort-direction">
+        <option value="desc">Highest</option>
+        <option value="asc">Lowest</option>
+    </select>
+        <div class="history-content" id = "history"></div>
+      </div>
+    </div>
+    
+    
+      
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
